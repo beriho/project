@@ -1,17 +1,17 @@
 import React from 'react';
-import {logo} from "../utils/svg"
 import britain from '../Home/home-images/britain.png'
 import ukraine from "../Home/home-images/ukraine.png"
+import { Link } from 'react-router-dom';
 
-const Navbar = ({styles}) => {
+const Navbar = ({styles, logo}) => {
     return(
         <>
-        <nav className={styles.navbar}>
+        <nav className={styles.navbar} id="navbar">
             <span>{logo}</span>
             <ul className={styles.links}>
-                <li>ГОЛОВНА</li>
-                <li>ПРО НАС</li>
-                <li>ПРОЕКТИ</li>
+                <Link to='/'><li>ГОЛОВНА</li></Link>
+                <Link to='/aboutus'><li>ПРО НАС</li></Link>
+                <Link to='/projects'><li>ПРОЕКТИ</li></Link>
                 <li>ГАЛЕРЕЯ</li>
                 <li>КОНТАКТИ</li>
             </ul>

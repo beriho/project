@@ -1,0 +1,171 @@
+.projects_section {
+  margin: 0 80px;
+}
+.projects_section h1 {
+  margin-bottom: 18px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #292eae;
+}
+.btns_block {
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.projects_section button {
+  width: 230px;
+  height: 35px;
+  background-color: #fff;
+  color: #292eae;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-right: 34px;
+  border: 1px solid #292eae;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.projects_section button:hover {
+  background-color: #292eae;
+  border: 1px solid #292eae;
+  color: #fff;
+}
+.projects_blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+.projects_blocks a {
+  text-decoration: none;
+  color: #000;
+}
+.project_block {
+  width: 350px;
+  margin: 0 20px;
+}
+.project_block p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* SINGLE PROJECT */
+main {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px;
+}
+.main_title {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #292eae;
+}
+.arrow_links {
+  position: absolute;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8397ff;
+  left: 56px;
+  top: -15px;
+}
+.arrow_links span {
+  margin-right: 5px;
+}
+.bold_link {
+  font-weight: bold !important;
+  font-style: normal;
+  color: #292eae;
+}
+.application_btn {
+  width: 230px;
+  height: 35px;
+  background-color: #292eae;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  border: 1px solid #292eae;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 38px;
+}
+.title_block {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.title_block h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  color: #292eae;
+  margin: 0 27px;
+}
+.line {
+  width: 315px;
+  height: 5px;
+  background-color: #292eae;
+}
+.characteristics {
+  display: flex;
+  margin: 30px 210px;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 28px;
+  color: #000;
+  width: 950px;
+  position: relative;
+}
+.characteristics p {
+    width: 400px;
+    margin-right: 55px;
+}
+.blue_text {
+  color: #292eae;
+  font-style: italic;
+}
+.gray_text {
+  color: gray;
+}
+sup {
+    font-size: 15px;
+}
+.bold_currency {
+    font-weight: bold;
+}
+.line_beetween_characteristics {
+    position: absolute;
+    height: 210px;
+    width: 2px;
+    background-color: #292eae;
+    right: 57%;
+    top: 30px;
+}
+.img_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img_blocks img {
+    margin: 33px 20px 32px 0;
+}

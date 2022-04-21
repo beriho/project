@@ -9,13 +9,14 @@ import rectangle6 from "./home-images/Rectangle 6.png";
 import Partners from "./Partners";
 import Footer from "./Footer";
 import Service from "./Service";
+import {logo} from "../utils/svg"
 
 const Home = () => {
   return (
     <>
       <header>
         <div className={styles.background_image}>
-          <Navbar styles={styles} />
+          <Navbar styles={styles} logo={logo}/>
           <div className={styles.header_title}>
             <h1>MOXXXY</h1>
           </div>

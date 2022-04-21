@@ -1,0 +1,78 @@
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #9f9b9b59;
+  align-items: center;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  min-width: 700px;
+  color: #000aff;
+}
+.links a {
+  text-decoration: none;
+  color: #000aff;
+}
+.links a:hover {
+  background-color: #000aff;
+  color: #fff;
+  border-radius: 10px;
+}
+.links li {
+  margin: 14px 10px 11px 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.languages {
+  position: relative;
+}
+.languages :nth-child(2) {
+  margin-right: 20px;
+}
+.languages span {
+  cursor: pointer;
+}
+.line {
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  background-color: #000aff;
+  top: 0;
+  right: 48%;
+}
+
+/* MAIN */
+.aboutus_block {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  color: #292eae;
+  text-align: center;
+}
+.text {
+  padding: 0 90px 0 70px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+}
+.blueMoxy_in_text {
+  color: #292eae;
+}
+.about_img  {
+    margin: 0 60px 0 70px;
+}

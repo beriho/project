@@ -71,6 +71,10 @@ header {
   justify-content: space-between;
   min-width: 700px;
 }
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
 .links li {
   margin: 14px 17px 11px 0;
   cursor: pointer;
@@ -348,6 +352,7 @@ header {
 footer {
   background-color: #000aff;
   display: flex;
+  position: relative;
 }
 .footer_left_side,
 .footer_right_side {
@@ -401,4 +406,14 @@ footer {
 .footer_right_side ul li:hover {
   color: red;
   border-bottom: 1px solid red;
+}
+.arrow_to_top {
+  position: absolute;
+  padding: 20px;
+  border-radius: 10px;
+  bottom: 22px;
+  right: 22px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background-color: #fff;
 }

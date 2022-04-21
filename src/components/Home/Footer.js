@@ -7,7 +7,7 @@ import phone from "./home-images/Phone.png";
 import mail from "./home-images/Mail.png";
 import address from "./home-images/Address.png";
 import styles from "./Home.module.css"
-import { logo } from "../utils/svg";
+import { arrow, logo } from "../utils/svg";
 
 const Footer = () => {
     return(
@@ -65,6 +65,7 @@ const Footer = () => {
             <li><img src={address} alt="" />Київ, вул. Хрещатик, 23</li>
           </ul>
         </div>
+        <a className={styles.arrow_to_top} href="#navbar">{arrow}</a>
       </footer>
         </>
     )
