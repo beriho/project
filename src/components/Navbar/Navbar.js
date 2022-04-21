@@ -12,8 +12,8 @@ const Navbar = ({styles, logo}) => {
                 <Link to='/project'><li>ГОЛОВНА</li></Link>
                 <Link to='/aboutus'><li>ПРО НАС</li></Link>
                 <Link to='/projects'><li>ПРОЕКТИ</li></Link>
-                <li>ГАЛЕРЕЯ</li>
-                <li>КОНТАКТИ</li>
+                <Link to='/articles'><li>ГАЛЕРЕЯ</li></Link>
+                <Link to='/contact'><li>КОНТАКТИ</li></Link>
             </ul>
             <div className={styles.languages}>
             <span className={styles.line}></span>

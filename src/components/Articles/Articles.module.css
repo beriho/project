@@ -1,0 +1,131 @@
+.articles_sec h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #292eae;
+  margin-bottom: 55px;
+}
+.artcl_block {
+  display: flex;
+  border-bottom: 2px solid #292eae;
+  padding: 38px 0;
+}
+.articles_blocks a {
+  text-decoration: none;
+}
+.artcl_info span {
+  font-family: "Raleway";
+  color: #dab700;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 23px;
+}
+.artcl_info h2 {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 34px;
+}
+.artcl_info p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  width: 570px;
+  color: #000;
+}
+.artcl_block img {
+  margin-right: 15px;
+}
+#last_artcl_block {
+  border-bottom: none;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  justify-content: space-between;
+  color: #292eae;
+  margin-bottom: 50px;
+}
+.pagination span {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  cursor: pointer;
+  padding-top: 5px;
+}
+.pagination ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.pagination ul li {
+  margin: 0 16px;
+  width: 40px;
+  height: 40px;
+  color: #292eae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-size: 15px;
+  line-height: 18px;
+}
+.pagination ul li:hover {
+  background-color: #292eae;
+  color: #fff;
+}
+.arrow_links {
+  position: absolute;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8397ff;
+  left: 56px;
+  top: -15px;
+}
+.arrow_links span {
+  margin-right: 5px;
+}
+.single_artcl h1 {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #292eae;
+  margin-bottom: 15px;
+}
+.single_artcl img {
+  width: 847px;
+  height: 550px;
+  margin: auto;
+}
+.single_artcl p {
+  margin: 34px 80px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+}
+.single_artcl .bold_text {
+  color: #292eae;
+  font-size: 40px;
+  font-weight: bold;
+}
+.single_artcl p span {
+  color: #292eae;
+  font-size: 30px;
+  font-weight: 500;
+}

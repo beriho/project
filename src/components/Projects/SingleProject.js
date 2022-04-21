@@ -17,9 +17,9 @@ const SingleProject = () => {
       <Navbar styles={navStyles} logo={logo_blue} />
       <main>
         <div className={styles.arrow_links}>
-          <span>MOXXXY > </span>
-          <span>Проекти > </span>
-          <span>Проектування > </span>
+          <span>MOXXXY {">"} </span>
+          <span>Проекти {">"} </span>
+          <span>Проектування {">"} </span>
           <span className={styles.bold_link}>Віта Поштова: Візуалізація будівель на території</span>
         </div>
         <h1 className={styles.main_title}>Віта Поштова: Візуалізація будівель на території</h1>
